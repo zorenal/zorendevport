@@ -5,7 +5,10 @@ export default function Navbar() {
     <nav className="flex justify-end">
       <ul>
         <li>
-          <Link href="">About Me</Link>
+          <Link href="/">Home</Link>
+        </li>
+        <li>
+          <Link href="">About</Link>
         </li>
         <li>
           <Link href="">Projects</Link>
