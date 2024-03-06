@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function About() {
     return (
-     <section  className="min-h-dvh flex justify-center">
+     <section  className="min-h-dvh flex justify-center items-center">
           <div className="relative 3xl:w-[350px] lg:h-[400px] lg:w-[300px] md:h-[300px] md:w-[200px] h-[300px] w-[250px]">
             <Image
               className="object-cover"
@@ -12,7 +12,7 @@ export default function About() {
               sizes=""
             />
           </div>
-      I'm a goal driven software engineer passion about developing web applications. I find value in the journey of overcoming obstacles and continuously growing from each experience.
+      <p className='text-5xl w-5/12'>I'm a goal driven software engineer passion about developing web applications. I find value in the journey of overcoming obstacles and continuously growing from each experience.</p>
     </section>
     );
   }
