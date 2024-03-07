@@ -14,7 +14,7 @@ export default function Navbar() {
             </li>
             <li className="p-3">
             <NavScroll>
-              <Link href="" className="nav-link" data-hover="Work">Work</Link>
+              <Link href="#work" className="nav-link" data-hover="Work">Work</Link>
               </NavScroll>
             </li>
             <li className="p-3">
