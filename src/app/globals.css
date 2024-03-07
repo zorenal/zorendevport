@@ -11,7 +11,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 20, 20, 20;
+    --background-start-rgb: 15, 15, 20;
     --background-end-rgb: 0, 0, 0;
   }
 }
@@ -25,4 +25,23 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.nav-link {
+  position: relative;
+}
+
+.nav-link::before {
+  content: attr(data-hover);
+  position: absolute;
+  color: #159ae2;
+  left: 0;
+  width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.nav-link:hover::before {
+  width: 100%;
+  transition: width 0.5s;
 }
