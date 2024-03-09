@@ -1,41 +1,33 @@
-'use client'
-import { useState, useEffect } from 'react';
-import Link from 'next/link';
-import NavAnim from './NavAnim';
-import { MobileNavBar } from './MobileNavBar';
+import React from "react";
+import Link from "next/link";
+import NavAnim from "./NavAnim";
+import MobileNavBar from "./MobileNavBar";
+
+const links = [
+  { href: "#about", label: "About" },
+  { href: "#work", label: "Work" },
+  { href: "/zoren_resume.pdf", label: "Resume" },
+  { href: "https://www.linkedin.com/in/zorenlabrador1999/", label: "LinkedIn" },
+  { href: "https://github.com/zorenal", label: "Github" }
+];
 
 export default function Navbar() {
-  const [isMobile, setIsMobile] = useState(false);
 
-  const navLinks = [
-    { href: "#about", label: "About" },
-    { href: "#work", label: "Work" },
-    { href: "/zoren_resume.pdf", label: "Resume" },
-    { href: "https://www.linkedin.com/in/zorenlabrador1999/", label: "LinkedIn" },
-    { href: "https://github.com/zorenal", label: "Github" }
-  ];
-
-  // useEffect(() => {
-  //   // Check if screen width is less than 768px (typical mobile breakpoint)
-  //   const handleResize = () => {
-  //     setIsMobile(window.innerWidth < 768);
-  //   };
-  //   handleResize(); // Set initial value
-  //   window.addEventListener('resize', handleResize);
-  //   return () => window.removeEventListener('resize', handleResize);
-  // }, []);
+  const newTab = (link) => {
+    return link.href.endsWith('.pdf') || link.href.startsWith('http');
+  };
 
   return (
     <nav>
-      {isMobile && <MobileNavBar />}
-      <div className="fixed flex p-5 z-10">
-        <ul className={`text-base md:text-lg lg:text-2xl ${isMobile ? 'hidden' : 'block'}`}>
-          {navLinks.map((link, index) => (
-            <li className="p-3" key={index}>
+      <div className="md:hidden lg:hidden">
+        <MobileNavBar links={links} />
+      </div>
+      <div className="fixed flex p-5">
+        <ul className="text-base md:text-lg lg:text-xl">
+          {links.map((link, index) => (
+            <li className="p-3 xs:hidden sm:hidden" key={index}>
               <NavAnim>
-                <Link href={link.href} target="_blank" className="nav-link" data-hover={link.label}>
-                  {link.label}
-                </Link>
+                <Link href={link.href} className="nav-link font-medium" data-hover={link.label} target={newTab(link) ? '_blank' : undefined}>{link.label}</Link>
               </NavAnim>
             </li>
           ))}
