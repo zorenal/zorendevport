@@ -5,7 +5,6 @@ export default function Home() {
   return (
     <section className="min-h-screen flex justify-center items-center text-center p-4 lg:p-8">
       <FadeInAnim>
-
         <div className="relative w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 rounded-full overflow-hidden mx-auto">
           <Image
             className="rounded-full object-cover"
@@ -27,13 +26,13 @@ export default function Home() {
           React as my ensemble. With the precision of a master watchmaker and
           the audacity of a daredevil, I navigate the intricate web of coding
           enigmas, transforming complexity into clarity with each keystroke.
-          Armed with an insatiable thirst for perfection, I pirouette through
-          the digital labyrinth, turning obstacles into stepping stones of
-          innovation. With every project, I sculpt lines of code into
-          masterpieces, fueling my passion for pushing boundaries and embracing
-          challenges head-on. In this ever-evolving landscape of technology, I
-          am not merely a coder—I am an architect of possibility, constantly
-          refining my craft to bring tomorrow&apos;s digital marvels to life today.
+          Armed with an insatiable thirst for growth, I turn obstacles into
+          stepping stones of innovation. With every project, I craft lines of
+          code into polished solutions, refining them with precision and care,
+          fueling my passion for pushing boundaries and embracing challenges
+          head-on. In this ever-evolving landscape of technology, I am not
+          merely a coder—I am an architect of possibility, constantly refining
+          my craft to bring tomorrow&apos;s digital marvels to life today.
         </p>
         {/* <p className="text-base md:text-lg lg:text-lg max-w-prose mt-2 md:mt-4 lg:mt-6">
           I speak JavaScript and TypeScript fluently, with Node.js as my trusty
