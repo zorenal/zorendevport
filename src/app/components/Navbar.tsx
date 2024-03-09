@@ -13,7 +13,7 @@ const links = [
 
 export default function Navbar() {
 
-  const newTab = (link) => {
+  const newTab = (link: {href: string}) => {
     return link.href.endsWith('.pdf') || link.href.startsWith('http');
   };
 

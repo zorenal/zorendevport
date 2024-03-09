@@ -5,9 +5,9 @@ export default function Work() {
       { name: "SeeQR", url: "http://www.seeqrapp.com/" },
     ]
     return (
-      <div className="flex flex-col text-2xl">
+      <div className="flex flex-col text-2xl mb-8">
         {work.map((work, index) => (
-          <Link key={index} href={work.url} className="text-base md:text-lg lg:text-2xl nav-link" data-hover={work.name}>{work.name}</Link>
+          <Link key={index} href={work.url} target="_blank" className="text-base md:text-lg lg:text-2xl mb-2 nav-link" data-hover={work.name}>{work.name}</Link>
         ))}
       </div>
     );

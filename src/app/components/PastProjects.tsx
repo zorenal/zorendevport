@@ -9,7 +9,7 @@ export default function PastProjects() {
   return (
     <div className="flex flex-col text-2xl">
       {projects.map((project, index) => (
-        <Link key={index} href={project.url} className="text-base md:text-lg lg:text-2xl mb-4 nav-link" data-hover={project.name}>{project.name}</Link>
+        <Link key={index} href={project.url} target="_blank" className="text-base md:text-lg lg:text-2xl nav-link" data-hover={project.name}>{project.name}</Link>
       ))}
     </div>
   );
