@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <section className="min-h-screen flex justify-center items-center text-center p-4 lg:p-8">
       <FadeInAnim>
-        <div className="relative w-48 h-48 md:w-64 md:h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden mx-auto">
+        <div className="relative w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 rounded-full overflow-hidden mx-auto">
           <Image
             className="rounded-full object-cover"
             src="/myportrait.jpg"

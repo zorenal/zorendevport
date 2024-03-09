@@ -1,9 +1,8 @@
 import Link from "next/link";
 
 
-export default function Project() {
+export default function PastProjects() {
   let projects = [
-    { name: "QuestBoard", url: "https://quest-board-swtu.onrender.com/" },
     { name: "EFTGuessr", url: "https://eftguessr.com/" },
     { name: "CDGFitness", url: "https://cdg-fitness.vercel.app/" }
   ];

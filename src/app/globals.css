@@ -50,6 +50,14 @@ body {
   transition: width 0.5s;
 }
 
+.toggle-hidden {
+  display: none
+}
+
+.toggle-display {
+  display: flex;
+}
+
 
 @media screen and (max-width: 768px) {
   .mobile-menu {

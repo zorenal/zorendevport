@@ -1,18 +1,21 @@
-import Project from "./Project";
+import PastProjects from "./PastProjects";
 import Work from "./Work";
 import FadeInAnim from "./FadeInAnim";
+import CurrentProjects from "./CurrentProjects";
 
 export default function WorkSection() {
   return (
     <section
       id="work"
-      className="min-h-dvh flex flex-col items-center justify-center"
+      className="min-h-dvh flex flex-col items-center justify-evenly"
     >
       <FadeInAnim>
-      <p className="2xs:text-2xl xs:text-2xl sm:text-2xl md:text-3xl lg:text-4xl m-4 sm:m-6 lg:m-10 font-bold">Experience</p>
+      <p className="2xs:text-lg xs:text-lg sm:text-xl md:text-2xl lg:text-3xl m-4 sm:m-6 lg:m-10 font-semibold">Experience</p>
       <Work/>
-      <p className="2xs:text-2xl xs:text-2xl sm:text-2xl md:text-3xl lg:text-4xl m-4 sm:m-6 lg:m-10 font-bold">Projects</p>
-      <Project />
+      <p className="2xs:text-lg xs:text-lg sm:text-xl md:text-2xl lg:text-3xl m-4 sm:m-6 lg:m-10 font-semibold">Current Projects</p>
+      <CurrentProjects/>
+      <p className="2xs:text-lg xs:text-lg sm:text-xl md:text-2xl lg:text-3xl m-4 sm:m-6 lg:m-10 font-semibold">Past Projects</p>
+      <PastProjects />
       </FadeInAnim>
     </section>
   );
