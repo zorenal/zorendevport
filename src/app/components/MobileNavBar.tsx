@@ -2,7 +2,9 @@
 import React, { useRef } from "react";
 import { motion, useCycle } from "framer-motion";
 import Link from "next/link";
-const Path = props => (
+import { PathProps, MenuToggleProps } from '@/app/types'
+
+const Path: React.FC<PathProps> = (props) => (
   <motion.path
     fill="transparent"
     strokeWidth="3"
@@ -12,7 +14,7 @@ const Path = props => (
   />
 );
 
-const MenuToggle = ({ toggle }) => (
+const MenuToggle: React.FC<MenuToggleProps>  = ({ toggle }) => (
   <button onClick={toggle} className='fixed z-10'>
     <svg width="50" height="50" viewBox="0 0 40 40">
       <Path
@@ -55,7 +57,7 @@ const background = {
 };
 
 
-const MobileNavBar = ({ links }) => {
+const MobileNavBar: React.FC<{ links: { href: string; label: string }[] }> = ({ links }) => {
   const [isOpen, toggleOpen] = useCycle(false, true);
   const containerRef = useRef(null);
 
