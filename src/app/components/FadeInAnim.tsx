@@ -1,6 +1,6 @@
 'use client'
 import { motion } from "framer-motion"
-import  JSXNodeProp from '@/app/types'
+import  {JSXNodeProp} from '@/app/types'
 
 
 export default function FadeInAnim({children}:JSXNodeProp) {

@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import JSXNodeProp from "@/app/types";
+import {JSXNodeProp} from "@/app/types";
 import Image from "next/image";
 
 export default function TechStack({ children }: JSXNodeProp) {
