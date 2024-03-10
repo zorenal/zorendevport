@@ -21,7 +21,7 @@ export default function Home() {
           A passionate <TechStack>Software Engineer</TechStack> from California.
         </p>
         <p className="text-base xs:text-xs sm:text-md md:text-lg lg:text-lg max-w-prose mt-2 md:mt-4 lg:mt-6">
-          In the expansive realm of JavaScript and TypeScript, I command my
+          In the expansive realm of JavaScript, I command my
           Node.js interpreter like a maestro orchestrating a symphony, with
           React as my ensemble. With the precision of a master watchmaker and
           the audacity of a daredevil, I navigate the intricate web of coding
