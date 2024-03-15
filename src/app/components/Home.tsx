@@ -18,7 +18,7 @@ export default function Home() {
           Hi 👋, I&apos;m Zoren
         </p>
         <p className="text-base md:text-lg lg:text-2xl mt-2 font-medium">
-          A passionate <TechStack>Software Engineer</TechStack> from California.
+          A passionate Software Engineer from California.
         </p>
         <p className="text-base xs:text-xs sm:text-md md:text-lg lg:text-lg max-w-prose mt-2 md:mt-4 lg:mt-6">
           In the expansive realm of JavaScript, I command my
