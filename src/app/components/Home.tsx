@@ -21,14 +21,11 @@ export default function Home() {
           A passionate Software Engineer from California.
         </p>
         <p className="text-base xs:text-xs sm:text-md md:text-lg lg:text-lg max-w-prose mt-2 md:mt-4 lg:mt-6">
-          In the expansive realm of JavaScript, I command my
+          In the realm of JavaScript, I command my
           Node.js interpreter like a maestro orchestrating a symphony, with
-          React as my ensemble. With the precision of a master watchmaker and
-          the audacity of a daredevil, I navigate the intricate web of coding
-          enigmas, transforming complexity into clarity with each keystroke.
-          Armed with an insatiable thirst for growth, I turn obstacles into
+          React as my ensemble. Armed with an insatiable thirst for growth, I turn obstacles into
           stepping stones of innovation. With every project, I craft lines of
-          code into polished solutions, refining them with precision and care,
+          code into polished solutions and
           fueling my passion for pushing boundaries and embracing challenges
           head-on. In this ever-evolving landscape of technology, I am not
           merely a coder—I am an architect of possibility, constantly refining
