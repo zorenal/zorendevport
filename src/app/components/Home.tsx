@@ -25,7 +25,7 @@ export default function Home() {
           Node.js interpreter like a maestro orchestrating a symphony, with
           React as my ensemble. Armed with an insatiable thirst for growth, I turn obstacles into
           stepping stones of innovation. With every project, I craft lines of
-          code into polished solutions and
+          code into polished solutions,
           fueling my passion for pushing boundaries and embracing challenges
           head-on. In this ever-evolving landscape of technology, I am not
           merely a coder—I am an architect of possibility, constantly refining
