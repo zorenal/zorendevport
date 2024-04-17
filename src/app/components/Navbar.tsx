@@ -9,7 +9,8 @@ const links = [
   { href: "/zoren_resume.pdf", label: "Resume" },
   { href: "https://www.linkedin.com/in/zorenlabrador1999/", label: "LinkedIn" },
   { href: "https://github.com/zorenal", label: "Github" },
-  { href: "mailto:zalabrador@gmail.com", label: "Email" }
+  { href: "mailto:zalabrador@gmail.com", label: "Email" },
+  {href: "https://medium.com/@zorenal", label: "Medium"}
 ]
 
 export default function Navbar() {
