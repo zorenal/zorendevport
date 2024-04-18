@@ -3,6 +3,7 @@ import Link from "next/link";
 export default function Work() {
     let work = [ 
       { name: "SeeQR", url: "http://www.seeqrapp.com/" },
+      {name : "Canvia", url: "https://canvia.art/"}
     ]
     return (
       <div className="flex flex-col text-2xl mb-8">
