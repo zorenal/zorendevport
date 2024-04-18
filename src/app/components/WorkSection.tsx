@@ -12,7 +12,7 @@ export default function WorkSection() {
       <FadeInAnim>
       <p className="2xs:text-lg xs:text-lg sm:text-xl md:text-2xl lg:text-3xl mb-2 font-semibold">Experience</p>
       <Work/>
-      <p className="2xs:text-lg xs:text-lg sm:text-xl md:text-2xl lg:text-3xl mb-2 font-semibold">Current Projects</p>
+      <p className="2xs:text-lg xs:text-lg sm:text-xl md:text-2xl lg:text-3xl mb-2 font-semibold">Legacy Projects</p>
       <PastProjects />
       </FadeInAnim>
     </section>
