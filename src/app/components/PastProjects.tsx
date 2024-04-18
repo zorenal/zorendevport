@@ -4,7 +4,8 @@ import Link from "next/link";
 export default function PastProjects() {
   let projects = [
     { name: "EFTGuessr", url: "https://eftguessr.com/" },
-    { name: "CDGFitness", url: "https://cdg-fitness.vercel.app/" }
+    { name: "CDGFitness", url: "https://cdg-fitness.vercel.app/" },
+    { name: "QuestBoard", url: "https://quest-board-swtu.onrender.com/" }
   ];
   return (
     <div className="flex flex-col text-2xl">
