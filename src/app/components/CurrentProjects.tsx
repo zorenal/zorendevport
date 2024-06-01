@@ -3,7 +3,6 @@ import Link from "next/link";
 
 export default function CurrentProjects() {
   let projects = [
-    { name: "QuestBoard", url: "https://quest-board-swtu.onrender.com/" },
     { name: "Kakū no Resturan", url: "https://kakurestu.vercel.app/" },
   ];
   

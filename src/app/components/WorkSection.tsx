@@ -10,8 +10,10 @@ export default function WorkSection() {
       className="min-h-dvh flex flex-col items-center justify-center"
     >
       <FadeInAnim>
-      <p className="2xs:text-lg xs:text-lg sm:text-xl md:text-2xl lg:text-3xl mb-2 font-semibold">Experience</p>
+      <p className="2xs:text-lg xs:text-lg sm:text-xl md:text-2xl lg:text-3xl mb-2 font-semibold">Work Experience</p>
       <Work/>
+      <p className="2xs:text-lg xs:text-lg sm:text-xl md:text-2xl lg:text-3xl mb-2 font-semibold">Current Projects</p>
+      <CurrentProjects/>
       <p className="2xs:text-lg xs:text-lg sm:text-xl md:text-2xl lg:text-3xl mb-2 font-semibold">Legacy Projects</p>
       <PastProjects />
       </FadeInAnim>
