@@ -4,8 +4,9 @@ import Link from "next/link";
 export default function CurrentProjects() {
   let projects = [
     { name: "QuestBoard", url: "https://quest-board-swtu.onrender.com/" },
-    { name: "Job Nest", url: "" },
+    { name: "Kakū no Resturan", url: "https://kakurestu.vercel.app/" },
   ];
+  
   return (
     <div className="flex flex-col text-2xl mb-8">
       {projects.map((project, index) => (
