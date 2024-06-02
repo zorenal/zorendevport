@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function CurrentProjects() {
   let projects = [
-    { name: "Kakū no Resturan", url: "https://kakurestu.vercel.app/" },
+    { name: "Nise no Resturan", url: "https://niserestu.vercel.app/" },
   ];
   
   return (
